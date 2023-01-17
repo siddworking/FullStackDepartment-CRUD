@@ -1,0 +1,17 @@
+@using tflstore.Models;
+@{
+    ViewData["Title"] = "Products Gallery Page";
+}
+
+<div class="text-center">
+
+    @{
+        List<Product> allprods=(List<Product>)ViewData["prods"]; 
+        <ol>
+            @foreach(Product e in allprods){
+                <li>@e.Title</li>
+                
+            }
+        </ol>
+    } 
+    </div>

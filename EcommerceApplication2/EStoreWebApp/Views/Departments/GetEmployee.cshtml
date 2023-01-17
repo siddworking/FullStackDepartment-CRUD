@@ -1,0 +1,17 @@
+@using BOL;
+@{
+    ViewData["Title"] = "EMployee Page";
+}
+
+<div >
+    <h1 > All Employees</h1>
+     @{
+          List<Employee> allemps =(List<Employee>) ViewData["emp"];
+            <ol>
+                @foreach (Employee emp in allemps)
+                {
+                    <li><a href="/departments/getemmp/@emp.Id">@emp.Id    @emp.FirstName         @emp.LastName</a></li>
+                }
+            </ol>
+     }
+</div>

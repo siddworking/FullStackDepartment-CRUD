@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    @{
+         List<string> flowers = new List<string>();
+            flowers.Add("Lotous");
+             flowers.Add("Sunflower");
+              flowers.Add("Rose");
+
+              <ol>
+                @foreach(string flower in flowers)
+                {
+                    <li>@flower</li>
+                }
+              </ol>
+
+         //  <a href="/login.cshtml"></a>  
+
+         <form action="/home/getit">
+    <input type="submit" value="Get Details"> </input>
+
+           </form>
+
+
+    }
+</div>

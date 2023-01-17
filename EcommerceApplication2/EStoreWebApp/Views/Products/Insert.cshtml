@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Insert Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Enter Product Details</h1>
+
+     <form action="/products/add" >
+<label for="pid">Product ID:</label><br>
+  <input type="number" id="pid" name="pid"><br> 
+  <label for="title">Title:</label><br>
+  <input type="text" id="title" name="title"><br>    
+  <label for="categ">Category:</label><br>
+  <input type="text" id="categ" name="categ"><br>
+  <label for="pri">Unit Price:</label><br>
+  <input type="number" id="pri" name="pri"><br>
+  <label for="bal">Stock:</label><br>
+  <input type="number" id="bal" name="bal"><br>
+  <label for="des">Description:</label><br>
+  <input type="text" id="des" name="des"><br>
+  <input type="submit" value="submit"></input>
+
+</form>
+ 
+</div>

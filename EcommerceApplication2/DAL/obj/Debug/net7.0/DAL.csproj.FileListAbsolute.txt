@@ -1,0 +1,15 @@
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\bin\Debug\net7.0\DAL.dll
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\bin\Debug\net7.0\DAL.pdb
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.dll
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.pdb
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\ref\DAL.dll
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\bin\Debug\net7.0\BOL.dll
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\bin\Debug\net7.0\BOL.pdb
+D:\CDAC All subjects\.Net\practice\EcommerceApplication2\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete

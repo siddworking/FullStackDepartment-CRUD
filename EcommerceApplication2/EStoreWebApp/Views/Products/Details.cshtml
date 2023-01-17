@@ -1,0 +1,21 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products Details</h1>
+
+   @{
+    Product theproduct = ViewData["product"] as Product;
+    <p>Title : @theproduct.Title</p>
+      <p>Id : @theproduct.ProductId</p> 
+      <p>Description : @theproduct.Description</p>
+       <p>Unit Price : @theproduct.UnitPrice</p>
+        <p>StockAvalaible : @theproduct.Balance</p>
+         @* <p>Title : @theproduct.Title</p>
+          <p>Title : @theproduct.Title</p> *@
+          <a href="/products/cart">Add to cart</a>
+    } 
+</div>
+ 

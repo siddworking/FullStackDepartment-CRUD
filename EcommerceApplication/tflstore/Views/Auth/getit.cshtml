@@ -1,0 +1,19 @@
+@using HR;
+@using System.Collections.Generic;
+@{
+    ViewData["title"] = "All Details Page";
+}
+<h1>ALL PEOPLES</h1>
+<div class="text-center">
+
+    @{
+        List<Employee> allemps=(List<Employee>)ViewData["members"]; 
+        <ol>
+            @foreach(Employee e in allemps){
+                <li>@e.FirstName   @e.LastName   @e.Email</li>
+                
+            }
+        </ol>
+    } 
+    <hr/>
+    </div>

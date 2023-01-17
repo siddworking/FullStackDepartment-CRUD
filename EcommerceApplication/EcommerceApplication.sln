@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebApp", "HelloWebApp\HelloWebApp.csproj", "{EAC73CBF-6354-4126-81F7-F2230FF96520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tflstore", "tflstore\tflstore.csproj", "{C7C77C06-B296-4E7E-925C-30D08E591888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC73CBF-6354-4126-81F7-F2230FF96520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC73CBF-6354-4126-81F7-F2230FF96520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC73CBF-6354-4126-81F7-F2230FF96520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC73CBF-6354-4126-81F7-F2230FF96520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C77C06-B296-4E7E-925C-30D08E591888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C77C06-B296-4E7E-925C-30D08E591888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C77C06-B296-4E7E-925C-30D08E591888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C77C06-B296-4E7E-925C-30D08E591888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
